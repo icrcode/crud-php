@@ -29,11 +29,11 @@ $currentUser = $user->getUserById($_SESSION['user_id']);
         <img src="../uploads/<?php echo htmlspecialchars($currentUser['profile_pic']); ?>" 
         alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%;">
         <div>
-            <br><br>
+            <br>
             <a href="upload_photo.php">Upload New Profile Picture</a>
-            <br><br>
+            <br>
             <a href="logout.php">Logout</a>
-            <br><br>
+            <br>
             <a href="index.php">Home</a>
         </div>
     </div>
